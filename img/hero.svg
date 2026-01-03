@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b0f19"/>
+    <stop offset="1" stop-color="#06080f"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="20%" cy="30%" r="60%">
+    <stop offset="0" stop-color="#19f5a5" stop-opacity="0.25"/>
+    <stop offset="1" stop-color="#19f5a5" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="80%" cy="30%" r="60%">
+    <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.18"/>
+    <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1600" height="420" fill="url(#g1)"/>
+<rect width="1600" height="420" fill="url(#glow)"/>
+<rect width="1600" height="420" fill="url(#glow2)"/>
+<g opacity="0.22">
+  <circle cx="220" cy="110" r="3" fill="#fff"/>
+  <circle cx="280" cy="160" r="2" fill="#fff"/>
+  <circle cx="320" cy="95" r="2" fill="#fff"/>
+  <circle cx="1360" cy="120" r="3" fill="#fff"/>
+  <circle cx="1280" cy="180" r="2" fill="#fff"/>
+  <circle cx="1240" cy="90" r="2" fill="#fff"/>
+</g>
+<text x="50%" y="54%" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="76" fill="#ffffff" opacity="0.92" font-weight="800" letter-spacing="2">
+YOUR COMIC TITLE
+</text>
+<text x="50%" y="68%" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="22" fill="#ffffff" opacity="0.7">
+Replace this banner with your own header art (static/img/hero.svg)
+</text>
+</svg>
